@@ -1,0 +1,59 @@
+.contact{
+    padding:120px 8%;
+    text-align:center;
+}
+
+.contact h2{
+    font-size:2.5rem;
+    margin-bottom:20px;
+    color:#111827;
+}
+
+.contact-text{
+    max-width:650px;
+    margin:0 auto 40px;
+    color:#6b7280;
+    line-height:1.8;
+}
+
+.contact-links{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.contact-links a{
+    text-decoration:none;
+    color:#111827;
+    border:1px solid #e5e7eb;
+    padding:14px 28px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.contact-links a:hover{
+    background:#111827;
+    color:white;
+}
+
+@media (max-width:768px){
+
+    .contact{
+
+        padding:80px 8%;
+    }
+
+    .contact-links{
+
+        flex-direction:column;
+
+        align-items:center;
+    }
+
+    .contact-links a{
+
+        width:240px;
+    }
+
+}

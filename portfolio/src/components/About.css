@@ -1,0 +1,39 @@
+.about{
+    padding:120px 8%;
+}
+
+.about-text{
+    max-width:800px;
+}
+
+.about h2{
+    font-size:2.5rem;
+    margin-bottom:30px;
+    color:#111827;
+}
+
+.about p{
+    font-size:1.1rem;
+    line-height:1.9;
+    color:#6b7280;
+    margin-bottom:20px;
+}
+
+@media (max-width:768px){
+
+    .about{
+
+        padding:80px 8%;
+    }
+
+    .about h2{
+
+        text-align:center;
+    }
+
+    .about-text{
+
+        text-align:center;
+    }
+
+}

@@ -77,7 +77,9 @@ function Projects() {
   </a>
 
   <a
-    href="#"
+    href="https://herbert-it-1.onrender.com/"
+    target="_blank"
+    rel="noopener noreferrer"
     className="demo-btn"
   >
     🚀 Live Demo
